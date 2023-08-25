@@ -16,4 +16,4 @@ npm run build
 
 ## Reference
 
-- [vue-element-template](https://github.com/PanJiaChen/vue-element-template) 
+- [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 

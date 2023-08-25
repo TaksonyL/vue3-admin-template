@@ -8,10 +8,14 @@ import { viteMockServe } from 'vite-plugin-mock'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
+import OptimizationPersist from 'vite-plugin-optimize-persist'
+import PkgConfig from 'vite-plugin-package-config'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    PkgConfig(),
+    OptimizationPersist(),
     vue(),
     AutoImport({
       resolvers: [
